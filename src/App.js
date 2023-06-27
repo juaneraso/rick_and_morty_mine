@@ -17,7 +17,7 @@ function App() {
             gender={Rick.gender}
             origin={Rick.origin.name}
             image={Rick.image}
-            onClose={() => alert('Emulamos que se cierra la card')}
+            onClose={() => alert('Emulamos que se cierra la card en esta pagina')}
          />
       </div>
    );
