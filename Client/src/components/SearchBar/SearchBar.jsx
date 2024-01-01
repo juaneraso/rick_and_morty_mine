@@ -11,11 +11,7 @@ export default function SearchBar({onSearch}) {
 
       setId(event.target.value);
       
-
-
-   }
-
- 
+   } 
 
    //console.log(props);
    return (
