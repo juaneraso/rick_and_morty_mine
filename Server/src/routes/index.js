@@ -9,10 +9,6 @@ const router = Router();
 
 router.use("/characters", characterRouter);
 
-// router.get("/character/:id", (req, res) => {
-//   getCharById(req, res);
-// });
-
 router.get("/login", (req, res) => {
   login(req, res);
 });
